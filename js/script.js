@@ -3,7 +3,7 @@ const welcomeContainer = document.querySelector("#mensaje");
 const displayedName = document.querySelector("#displayedName");
 
 document.querySelector("#submitBtn").addEventListener("click", function(){
-    const user = nameInput.value;
+    let user = nameInput.value;
 
     if (user){
         displayedName.textContent = user;
